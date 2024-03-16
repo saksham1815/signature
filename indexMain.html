@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signature Pad</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <canvas id="signature-pad" width="500" height="300"></canvas>
+      <div class="controls">
+        <button id="clear-btn">Clear</button>
+        <input type="color" id="color-picker" value="#000000" />
+        <select id="pen-size">
+          <option value="1">1px</option>
+          <option value="3">3px</option>
+          <option value="5">5px</option>
+          <option value="8">8px</option>
+        </select>
+        <button id="save-btn">Save</button>
+      </div>
+      <img id="signature-image" alt="Signature" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
